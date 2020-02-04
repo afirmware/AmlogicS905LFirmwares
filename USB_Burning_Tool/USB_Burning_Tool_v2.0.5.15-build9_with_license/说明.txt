@@ -1,0 +1,1 @@
+需要把文件SECURE_BOOT_SET 放入USB_Burning_Tool\license文件夹下才能刷1S+的ROM。

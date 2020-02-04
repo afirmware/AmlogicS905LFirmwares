@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!--//Copy the length from /partitions of your dts-->
+<Partition_Info>
+<Part PartitionName="logo"          FileSystem="raw"    Length="0x2000000"/>
+<Part PartitionName="recovery"      FileSystem="raw"    Length="0x2000000"/>
+<Part PartitionName="rsv"           FileSystem="raw"    Length="0x800000"/>
+<Part PartitionName="tee"           FileSystem="raw"    Length="0x800000"/>
+<Part PartitionName="crypt"         FileSystem="raw"    Length="0x2000000"/>
+<Part PartitionName="misc"          FileSystem="raw"    Length="0x2000000"/>
+<Part PartitionName="instaboot"     FileSystem="raw"    Length="0x20000000">
+<Part PartitionName="boot"          FileSystem="raw"    Length="0x2000000"/>
+<Part PartitionName="system"        FileSystem="ext4"   Length="0x40000000"/>
+<Part PartitionName="cache"         FileSystem="ext4"   Length="0x20000000"/>
+</Partition_Info>

@@ -1,0 +1,5 @@
+﻿适用于webpad T1 V3官改固件，也适用于其它能自定义桌面的固件或其它设备。
+
+HALauncher作为桌面方法：
+安装完成后，打开HALauncher-->设置-->桌面设置-->勾选-使用HALauncher作为桌面
+按home键-->选择HALauncher-->始终-->重启T1盒子
